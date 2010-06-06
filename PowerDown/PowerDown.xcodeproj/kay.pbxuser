@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PowerDownAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 573}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{0, 949}";
+			sepNavWindowFrame = "{{15, 264}, {1133, 759}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PowerDownAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 2327}}";
+			sepNavSelRange = "{1382, 0}";
+			sepNavVisRange = "{614, 1542}";
+			sepNavWindowFrame = "{{84, 201}, {1133, 759}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* PowerDown */ = {
+		activeExec = 0;
+		executables = (
+			6AF699E111BBC0A200E8BE73 /* PowerDown */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6AF699E111BBC0A200E8BE73 /* PowerDown */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* PowerDown */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* PowerDown */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 6AF699F111BBC0A800E8BE73 /* Code sense */;
+		executables = (
+			6AF699E111BBC0A200E8BE73 /* PowerDown */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					898,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 297526694;
+			PBXWorkspaceStateSaveDate = 297526694;
+		};
+		perUserProjectItems = {
+			6A32D28311BBC87E004D72A6 /* PBXBookmark */ = 6A32D28311BBC87E004D72A6 /* PBXBookmark */;
+			6A32D2B611BBCCFB004D72A6 /* PBXTextBookmark */ = 6A32D2B611BBCCFB004D72A6 /* PBXTextBookmark */;
+			6A32D2DC11BBCE5F004D72A6 /* PBXTextBookmark */ = 6A32D2DC11BBCE5F004D72A6 /* PBXTextBookmark */;
+			6A32D2EC11BBCF93004D72A6 /* PBXTextBookmark */ = 6A32D2EC11BBCF93004D72A6 /* PBXTextBookmark */;
+			6A32D32011BBD180004D72A6 /* PBXTextBookmark */ = 6A32D32011BBD180004D72A6 /* PBXTextBookmark */;
+			6A32D32111BBD180004D72A6 /* PBXBookmark */ = 6A32D32111BBD180004D72A6 /* PBXBookmark */;
+			6A32D32211BBD180004D72A6 /* PBXBookmark */ = 6A32D32211BBD180004D72A6 /* PBXBookmark */;
+			6A32D35411BBD81B004D72A6 /* PlistBookmark */ = 6A32D35411BBD81B004D72A6 /* PlistBookmark */;
+			6A32D35711BBD81B004D72A6 /* PBXTextBookmark */ = 6A32D35711BBD81B004D72A6 /* PBXTextBookmark */;
+			6A32D36811BBD90B004D72A6 /* PBXTextBookmark */ = 6A32D36811BBD90B004D72A6 /* PBXTextBookmark */;
+			6A32D36911BBD90B004D72A6 /* PBXTextBookmark */ = 6A32D36911BBD90B004D72A6 /* PBXTextBookmark */;
+			6A32D3DB11BBDE96004D72A6 /* PlistBookmark */ = 6A32D3DB11BBDE96004D72A6 /* PlistBookmark */;
+			6AC22C2F11BBE2C2007E9A64 /* PBXTextBookmark */ = 6AC22C2F11BBE2C2007E9A64 /* PBXTextBookmark */;
+			6AC22C3111BBE2C2007E9A64 /* PBXTextBookmark */ = 6AC22C3111BBE2C2007E9A64 /* PBXTextBookmark */;
+			6AEE7B9E11BBE60C009F3ED8 /* PBXTextBookmark */ = 6AEE7B9E11BBE60C009F3ED8 /* PBXTextBookmark */;
+			6AF69A4311BBC41800E8BE73 /* PBXTextBookmark */ = 6AF69A4311BBC41800E8BE73 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6AF699F011BBC0A800E8BE73 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 583}}";
+			sepNavSelRange = "{371, 0}";
+			sepNavVisRange = "{0, 371}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* PowerDown_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {683, 425}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 187}";
+		};
+	};
+	6A32D28311BBC87E004D72A6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6AF69A0C11BBC1C800E8BE73 /* aquarium.png */;
+	};
+	6A32D28611BBC8C2004D72A6 /* Data.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{274, 159}, {1133, 759}}";
+		};
+	};
+	6A32D28A11BBC8EF004D72A6 /* IndividualSubviewsBasedApplicationCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {523, 910}}";
+			sepNavSelRange = "{2605, 0}";
+			sepNavVisRange = "{2543, 370}";
+		};
+	};
+	6A32D2B611BBCCFB004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AF699F711BBC18900E8BE73 /* ShopViewController.h */;
+		name = "ShopViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 395;
+		vrLoc = 0;
+	};
+	6A32D2DC11BBCE5F004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AF699F811BBC18900E8BE73 /* ShopViewController.m */;
+		name = "ShopViewController.m: 19";
+		rLen = 0;
+		rLoc = 344;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	6A32D2EC11BBCF93004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AF699F511BBC18900E8BE73 /* ChallengeViewController.h */;
+		name = "ChallengeViewController.h: 28";
+		rLen = 0;
+		rLoc = 767;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	6A32D32011BBD180004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AF699F611BBC18900E8BE73 /* ChallengeViewController.m */;
+		name = "ChallengeViewController.m: 56";
+		rLen = 0;
+		rLoc = 1529;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 455;
+	};
+	6A32D32111BBD180004D72A6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6AF69A1111BBC1C800E8BE73 /* Default.png */;
+	};
+	6A32D32211BBD180004D72A6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6AF69A0E11BBC1C800E8BE73 /* challenges.png */;
+	};
+	6A32D35411BBD81B004D72A6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* PowerDown-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/kay/Documents/PowerDown/PowerDown-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	6A32D35711BBD81B004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AF699F311BBC18900E8BE73 /* MyViewController.h */;
+		name = "MyViewController.h: 20";
+		rLen = 0;
+		rLoc = 1126;
+		rType = 0;
+		vrLen = 2011;
+		vrLoc = 827;
+	};
+	6A32D36811BBD90B004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 18";
+		rLen = 0;
+		rLoc = 371;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 0;
+	};
+	6A32D36911BBD90B004D72A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6AF699F411BBC18900E8BE73 /* MyViewController.m */;
+		name = "MyViewController.m: 73";
+		rLen = 0;
+		rLoc = 3592;
+		rType = 0;
+		vrLen = 1401;
+		vrLoc = 2542;
+	};
+	6A32D3DB11BBDE96004D72A6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6A32D28611BBC8C2004D72A6 /* Data.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/kay/Documents/PowerDown/Data.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	6AC22C2F11BBE2C2007E9A64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PowerDownAppDelegate.h */;
+		name = "PowerDownAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	6AC22C3111BBE2C2007E9A64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PowerDownAppDelegate.m */;
+		name = "PowerDownAppDelegate.m: 48";
+		rLen = 0;
+		rLoc = 1382;
+		rType = 0;
+		vrLen = 1573;
+		vrLoc = 614;
+	};
+	6AEE7B9E11BBE60C009F3ED8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PowerDownAppDelegate.m */;
+		name = "PowerDownAppDelegate.m: 48";
+		rLen = 0;
+		rLoc = 1382;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 614;
+	};
+	6AF699E111BBC0A200E8BE73 /* PowerDown */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = PowerDown;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	6AF699F011BBC0A800E8BE73 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6AF699F111BBC0A800E8BE73 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6AF699F311BBC18900E8BE73 /* MyViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 793}}";
+			sepNavSelRange = "{1126, 0}";
+			sepNavVisRange = "{827, 2011}";
+			sepNavWindowFrame = "{{15, 264}, {1133, 759}}";
+		};
+	};
+	6AF699F411BBC18900E8BE73 /* MyViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1251, 1131}}";
+			sepNavSelRange = "{3592, 0}";
+			sepNavVisRange = "{2542, 1401}";
+		};
+	};
+	6AF699F511BBC18900E8BE73 /* ChallengeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 583}}";
+			sepNavSelRange = "{767, 0}";
+			sepNavVisRange = "{0, 817}";
+			sepNavWindowFrame = "{{38, 243}, {1133, 759}}";
+		};
+	};
+	6AF699F611BBC18900E8BE73 /* ChallengeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1125, 2314}}";
+			sepNavSelRange = "{1529, 0}";
+			sepNavVisRange = "{455, 1285}";
+			sepNavWindowFrame = "{{61, 222}, {1133, 759}}";
+		};
+	};
+	6AF699F711BBC18900E8BE73 /* ShopViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {576, 419}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 395}";
+		};
+	};
+	6AF699F811BBC18900E8BE73 /* ShopViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 560}}";
+			sepNavSelRange = "{344, 0}";
+			sepNavVisRange = "{0, 746}";
+		};
+	};
+	6AF69A4311BBC41800E8BE73 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* PowerDown_Prefix.pch */;
+		name = "PowerDown_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 187;
+		vrLoc = 0;
+	};
+	8D1107310486CEB800E47090 /* PowerDown-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{107, 180}, {1133, 759}}";
+		};
+	};
+}
