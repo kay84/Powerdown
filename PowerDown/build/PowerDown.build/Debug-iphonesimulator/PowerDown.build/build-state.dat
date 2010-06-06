@@ -1,7 +1,7 @@
 TPowerDown
 v7
 r0
-t297526784.036773
+t297532626.076365
 cCheck dependencies
 cProcessInfoPlistFile /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/Info.plist PowerDown-Info.plist
 cCompileXIB /Users/kay/Documents/PowerDown/MainWindow.xib
@@ -157,9 +157,9 @@ i<Foundation/Foundation.h>
 i"ApplicationCell.h"
 
 N/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m
-c000000004C0A781E0000000000000E66
-t1275754526
-s3686
+c000000004C0BB9570000000000000E81
+t1275836759
+s3713
 i"IndividualSubviewsBasedApplicationCell.h"
 
 N/Users/kay/Documents/PowerDown/Classes/MyViewController.h
@@ -198,9 +198,9 @@ i"ShopViewController.h"
 i"PlaceViewController.h"
 
 N/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m
-c000000004C0BA9ED000000000000162C
-t1275832813
-s5676
+c000000004C0BB75A0000000000001630
+t1275836250
+s5680
 i"PowerDownAppDelegate.h"
 i"MyViewController.h"
 
@@ -271,11 +271,11 @@ t1275314974
 s5899
 
 N/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app
-t1275833976
+t1275836759
 s782
 
 N/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app.dSYM
-t1275832814
+t1275836759
 s102
 
 N/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/AquariumView.nib
@@ -327,8 +327,8 @@ t1275824938
 s994
 
 N/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown
-t1275832814
-s48472
+t1275836759
+s48816
 
 N/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/ShopView.nib
 t1275824938
@@ -387,8 +387,8 @@ t1275830426
 s54416
 
 N/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/IndividualSubviewsBasedApplicationCell.o
-t1275830426
-s21320
+t1275836759
+s22116
 
 N/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/MyViewController.o
 t1275826215
@@ -404,8 +404,8 @@ t1275828882
 s1334
 
 N/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDownAppDelegate.o
-t1275832814
-s54604
+t1275836636
+s54600
 
 N/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/RatingView.o
 t1275827067
@@ -471,7 +471,7 @@ s1283
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies297526784#297526784#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies297532626#297532626#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/ApplicationCell.o /Users/kay/Documents/PowerDown/Classes/ApplicationCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297519866.930906
@@ -526,8 +526,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/kay/Documents/PowerDown/Classes/ChallengeViewController.m297523225#297523226#0(0"0(0#0#64"/Users/kay/Documents/PowerDown/Classes/ChallengeViewController.m4300911832#1855"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -include /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch -c /Users/kay/Documents/PowerDown/Classes/ChallengeViewController.m -o /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/ChallengeViewController.o0#
 
 CCompileC build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/IndividualSubviewsBasedApplicationCell.o /Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297523225.083932
-e297523226.690406
+s297529559.725470
+e297529559.875123
 r1
 xCompileC
 xbuild/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/IndividualSubviewsBasedApplicationCell.o
@@ -536,9 +536,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m:101: warning: property 'detailLabel' requires method '-detailLabel' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m:101: warning: property 'detailLabel' requires the method 'setDetailLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@87"Compile /Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m297523225#297523226#0(457"/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m:101: warning: property 'detailLabel' requires method '-detailLabel' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m:101: warning: property 'detailLabel' requires the method 'setDetailLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@130"Property 'detailLabel' requires method '-detailLabel' to be defined - use @synthesize, @dynamic or provide a method implementation297523225#0#225#0(6@79"/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m297447326#101#0#101#0#0"0(22@137"Property 'detailLabel' requires the method 'setDetailLabel:' to be defined - use @synthesize, @dynamic or provide a method implementation297523225#225#232#0(6@79"/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m297447326#101#0#101#0#0"0(0#0#79"/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m4300911832#1885"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -include /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch -c /Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m -o /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/IndividualSubviewsBasedApplicationCell.o0#
+lSLF07#2@87"Compile /Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m297529559#297529559#0(0"0(0#0#79"/Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m4300911832#1885"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -include /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch -c /Users/kay/Documents/PowerDown/Classes/IndividualSubviewsBasedApplicationCell.m -o /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/IndividualSubviewsBasedApplicationCell.o0#
 
 CCompileC build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/MyViewController.o /Users/kay/Documents/PowerDown/Classes/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297519015.134280
@@ -567,8 +565,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/kay/Documents/PowerDown/Classes/PlaceViewController.m297517457#297517457#0(0"0(0#0#60"/Users/kay/Documents/PowerDown/Classes/PlaceViewController.m4300911832#1847"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -include /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch -c /Users/kay/Documents/PowerDown/Classes/PlaceViewController.m -o /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PlaceViewController.o0#
 
 CCompileC build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDownAppDelegate.o /Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s297525614.412675
-e297525614.549754
+s297529436.635367
+e297529436.759476
 r1
 xCompileC
 xbuild/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDownAppDelegate.o
@@ -583,7 +581,7 @@ o/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:72: warning: inco
 o/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:84: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
 o/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:96: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
 o/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:108: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type
-lSLF07#2@69"Compile /Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297525614#297525614#0(1263"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m: In function '-[PowerDownAppDelegate loadViews]':/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:59: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:72: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:84: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:96: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:108: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type5(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297525614#112#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297525613#59#0#59#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297525614#342#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297525613#72#0#72#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297525614#572#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297525613#84#0#84#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297525614#802#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297525613#96#0#96#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297525614#1032#231#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297525613#108#0#108#0#0"0(0#0#61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m4300911832#1849"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -include /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch -c /Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m -o /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDownAppDelegate.o0#
+lSLF07#2@69"Compile /Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297529436#297529436#0(1263"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m: In function '-[PowerDownAppDelegate loadViews]':/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:59: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:72: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:84: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:96: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m:108: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type5(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297529436#112#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297529050#59#0#59#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297529436#342#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297529050#72#0#72#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297529436#572#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297529050#84#0#84#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297529436#802#230#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297529050#96#0#96#0#0"0(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UIImage *' when passing argument 1 of 'initWithImage:' from distinct Objective-C type297529436#1032#231#0(6@61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m297529050#108#0#108#0#0"0(0#0#61"/Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m4300911832#1849"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -include /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch -c /Users/kay/Documents/PowerDown/Classes/PowerDownAppDelegate.m -o /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDownAppDelegate.o0#
 
 CCompileC build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/RatingView.o /Users/kay/Documents/PowerDown/Classes/RatingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s297519866.928123
@@ -792,23 +790,23 @@ xshop.png
 lSLF07#2@13"Copy shop.png297517737#297517737#0(0"0(0#0#39"/Users/kay/Documents/PowerDown/shop.png4300911832#430"    cd /Users/kay/Documents/PowerDown    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kay/Documents/PowerDown/shop.png /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app0#
 
 CGenerateDSYMFile /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app.dSYM /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown
-s297525614.614167
-e297525614.639151
+s297529559.897578
+e297529559.925787
 r1
 xGenerateDSYMFile
 x/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app.dSYM
 x/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/PowerDown.app.dSYM build/Debug-iphonesimulator/PowerDown.app/PowerDown297525614#297525614#0(0"0(0#0#82"/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown4300911832#365"    cd /Users/kay/Documents/PowerDown    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown -o /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/PowerDown.app.dSYM build/Debug-iphonesimulator/PowerDown.app/PowerDown297529559#297529559#0(0"0(0#0#82"/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown4300911832#365"    cd /Users/kay/Documents/PowerDown    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown -o /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app.dSYM0#
 
 CLd /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown normal i386
-s297525614.550033
-e297525614.614072
+s297529559.875250
+e297529559.897485
 r1
 xLd
 x/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown
 xnormal
 xi386
-lSLF07#2@87"Link /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown297525614#297525614#0(0"0(0#0#0"4300911832#832"    cd /Users/kay/Documents/PowerDown    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -filelist /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDown.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown0#
+lSLF07#2@87"Link /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown297529559#297529559#0(0"0(0#0#0"4300911832#832"    cd /Users/kay/Documents/PowerDown    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -filelist /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/Objects-normal/i386/PowerDown.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/PowerDown0#
 
 CProcessInfoPlistFile /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app/Info.plist PowerDown-Info.plist
 s297518266.111773
@@ -833,10 +831,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@31"Precompile PowerDown_Prefix.pch297517456#297517457#0(0"0(0#0#51"/Users/kay/Documents/PowerDown/PowerDown_Prefix.pch4300911832#1707"    cd /Users/kay/Documents/PowerDown    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-generated-files.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-own-target-headers.hmap -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-all-target-headers.hmap -iquote /Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/PowerDown-project-headers.hmap -F/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator -I/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/include -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources/i386 -I/Users/kay/Documents/PowerDown/build/PowerDown.build/Debug-iphonesimulator/PowerDown.build/DerivedSources -c /Users/kay/Documents/PowerDown/PowerDown_Prefix.pch -o /var/folders/Sh/Shi6jqRaGVuwndBkTUSRd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PowerDown_Prefix-ctfcxcihrlnstsaduskutgbmrqsf/PowerDown_Prefix.pch.gch0#
 
 CTouch /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app
-s297526776.090513
-e297526776.137207
+s297529559.925876
+e297529559.928265
 r1
 xTouch
 x/Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app
-lSLF07#2@78"Touch /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app297526776#297526776#0(0"0(0#0#0"4300911832#264"    cd /Users/kay/Documents/PowerDown    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app0#
+lSLF07#2@78"Touch /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app297529559#297529559#0(0"0(0#0#0"4300911832#264"    cd /Users/kay/Documents/PowerDown    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kay/Documents/PowerDown/build/Debug-iphonesimulator/PowerDown.app0#
 

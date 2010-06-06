@@ -50,6 +50,8 @@
 
 @implementation IndividualSubviewsBasedApplicationCell
 
+@synthesize detailLabel;
+
 - (void)setBackgroundColor:(UIColor *)backgroundColor
 {
     [super setBackgroundColor:backgroundColor];
@@ -74,8 +76,8 @@
 - (void)setDetailString:(NSString *)newDetailString
 {
     [super setDetailString:newDetailString];
-	detailLabel.lineBreakMode = UILineBreakModeWordWrap; 
 	detailLabel.numberOfLines = 0;
+	detailLabel.lineBreakMode = UILineBreakModeWordWrap; 	
 	//detailLabel.text = newDetailString;
 	[detailLabel setText:newDetailString];
 }

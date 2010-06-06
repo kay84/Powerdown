@@ -9,7 +9,7 @@
 #import "PowerDownAppDelegate.h"
 #import "MyViewController.h"
 
-static NSUInteger kNumberOfPages = 7;
+static NSUInteger kNumberOfPages = 5;
 
 @interface PowerDownAppDelegate (PrivateMethods)
 
@@ -43,7 +43,7 @@ static NSUInteger kNumberOfPages = 7;
 	
     // a page is the width of the scroll view
     scrollView.pagingEnabled = YES;
-    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * kNumberOfPages, scrollView.frame.size.height);
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, scrollView.frame.size.height * kNumberOfPages);
     scrollView.showsHorizontalScrollIndicator = YES;
     scrollView.showsVerticalScrollIndicator = YES;
     scrollView.scrollsToTop = NO;
@@ -75,8 +75,8 @@ static NSUInteger kNumberOfPages = 7;
 	
 	if (nil == shopViewController.view.superview) {
         CGRect frame = scrollView.frame;
-        frame.origin.x = frame.size.width * 1;
-        frame.origin.y = 0;
+        frame.origin.x = 0;
+        frame.origin.y = frame.size.height * 1;
         shopViewController.view.frame = frame;
         [scrollView addSubview:shopViewController.view];
     }
@@ -87,8 +87,8 @@ static NSUInteger kNumberOfPages = 7;
 	
 	if (nil == arenaViewController.view.superview) {
         CGRect frame = scrollView.frame;
-        frame.origin.x = frame.size.width * 2;
-        frame.origin.y = 0;
+        frame.origin.x = 0;
+        frame.origin.y = frame.size.height * 2;
         arenaViewController.view.frame = frame;
         [scrollView addSubview:arenaViewController.view];
     }
@@ -99,8 +99,8 @@ static NSUInteger kNumberOfPages = 7;
 	
 	if (nil == placeViewController.view.superview) {
         CGRect frame = scrollView.frame;
-        frame.origin.x = frame.size.width * 3;
-        frame.origin.y = 0;
+        frame.origin.x = 0;
+        frame.origin.y = frame.size.height * 3;
         placeViewController.view.frame = frame;
         [scrollView addSubview:placeViewController.view];
     }
@@ -111,8 +111,8 @@ static NSUInteger kNumberOfPages = 7;
 	
 	if (nil == aquariumViewController.view.superview) {
         CGRect frame = scrollView.frame;
-        frame.origin.x = frame.size.width * 4;
-        frame.origin.y = 0;
+        frame.origin.x = 0;
+        frame.origin.y = frame.size.height * 4;
         aquariumViewController.view.frame = frame;
         [scrollView addSubview:aquariumViewController.view];
     }
