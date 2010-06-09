@@ -5,20 +5,14 @@
 	<dict>
 		<key>Name</key>
 		<string>... of the Day</string>
-		<key>Icon</key>
-		<string>Baseball.png</string>
 		<key>Detail</key>
 		<string>&quot;test!!
 Challenge of the Day
 sakdfjöklsjdfölakjdflöka&quot;</string>
-		<key>New item</key>
-		<string></string>
 	</dict>
 	<dict>
 		<key>Name</key>
 		<string>... of the Week</string>
-		<key>Icon</key>
-		<string>Blocks.png</string>
 		<key>Detail</key>
 		<string>@&quot;test!!
 Challenge of the Week 1&quot;</string>

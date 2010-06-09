@@ -105,7 +105,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
 	// Load the data.
-    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
+    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"ChallengeData" ofType:@"plist"];
     self.data = [NSArray arrayWithContentsOfFile:dataPath];
 	
 	selectedRow = -1;
@@ -128,8 +128,6 @@
 		NSLog(@"swipe reight");
 	}
 }
-
-
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {	
@@ -214,10 +212,9 @@
 		[[cell doButton] setHidden:YES];
 		[cell rotateAccesoryArrow:0];
 		selectedRow = -1;
-		[self.tableView reloadData];		
-		
 	}
 	
+	[self.tableView reloadData];	
 	return indexPath;
 }
 

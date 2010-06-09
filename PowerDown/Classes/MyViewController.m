@@ -72,6 +72,12 @@ static NSArray *__pageControlColorList = nil;
     return self;
 }
 
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {	
+	[[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeLeft];
+	return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft);
+}
+
 - (void)dealloc {
     [pageNumberLabel release];
     [super dealloc];

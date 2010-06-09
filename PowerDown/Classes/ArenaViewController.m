@@ -8,11 +8,11 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import "ArenaViewController.h"
-#import "IndividualSubviewsBasedApplicationCell.h"
+#import "ArenaApplicationCell.h"
 
 @implementation ArenaViewController
 
-@synthesize tmpCell, imageView, tableView, data, selectedRow;
+@synthesize tmpCell, imageView, enemyFischView, tableView, data, selectedRow, myFishView;
 
 // Load the view nib and initialize the pageNumber ivar.
 - (id)initWithImage:(NSString*)imagePath
@@ -83,7 +83,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
 	// Load the data.
-    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
+    NSString *dataPath = [[NSBundle mainBundle] pathForResource:@"ArenaData" ofType:@"plist"];
     self.data = [NSArray arrayWithContentsOfFile:dataPath];
 	
 	selectedRow = -1;
@@ -139,11 +139,11 @@
 	
     static NSString *CellIdentifier = @"ApplicationCell";
     
-    IndividualSubviewsBasedApplicationCell *cell = (IndividualSubviewsBasedApplicationCell *)[self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    ArenaApplicationCell *cell = (ArenaApplicationCell *)[self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	
     if (cell == nil)
     {
-		[[NSBundle mainBundle] loadNibNamed:@"IndividualSubviewsBasedApplicationCell" owner:self options:nil];
+		[[NSBundle mainBundle] loadNibNamed:@"ArenaApplicationCell" owner:self options:nil];
         cell = tmpCell;
         self.tmpCell = nil;
     }
@@ -156,7 +156,8 @@
 	NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
     cell.icon = [UIImage imageNamed:@"square.png"]; //[UIImage imageNamed:[dataItem objectForKey:@"Icon"]];
     cell.name = [dataItem objectForKey:@"Name"];
-	cell.detailString = [dataItem objectForKey:@"Detail"];
+	cell.fishIconView = [UIImage imageNamed:[dataItem objectForKey:@"FishIcon"]];
+	cell.iconStatsView = [UIImage imageNamed:[dataItem objectForKey:@"StatsIcon"]]; 
 	
 	//rahmen zeichnen
 	
@@ -169,8 +170,6 @@
 	//elemente verstecken
 	
 	if (indexPath.row != selectedRow) {
-		[[cell detailLabel] setHidden:YES];
-		[[cell doButton] setHidden:YES];
 		[cell rotateAccesoryArrow:0];
 	}	
     return cell;
@@ -178,22 +177,20 @@
 
 - (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-	IndividualSubviewsBasedApplicationCell *cell = (IndividualSubviewsBasedApplicationCell *) [self.tableView cellForRowAtIndexPath:indexPath]; 
+	ArenaApplicationCell *cell = (ArenaApplicationCell *) [self.tableView cellForRowAtIndexPath:indexPath]; 
 	
-	if ([cell detailLabel].hidden) {
-		[[cell detailLabel] setHidden:NO];
-		[[cell doButton] setHidden:NO];
+	if ([cell fishIconView].hidden) {
 		[cell rotateAccesoryArrow:-90];
 		selectedRow = indexPath.row;		
 	} else {
-		[[cell detailLabel] setHidden:YES];
-		[[cell doButton] setHidden:YES];
 		[cell rotateAccesoryArrow:0];
 		selectedRow = -1;
-		[self.tableView reloadData];		
-		
 	}
 	
+	selectedRow = indexPath.row;		
+
+	[self.tableView reloadData];
+
 	return indexPath;
 }
 
