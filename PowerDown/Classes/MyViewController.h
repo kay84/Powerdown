@@ -48,11 +48,16 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MyViewController : UIViewController {
+@interface MyViewController : UIViewController <UIGestureRecognizerDelegate> {
     UILabel *pageNumberLabel;
     int pageNumber;
+	
+	UITapGestureRecognizer *tapRecognizer;
+	UISwipeGestureRecognizer *swipeLeftRecognizer;
 }
 
+@property (nonatomic, retain) UITapGestureRecognizer *tapRecognizer;
+@property (nonatomic, retain) UISwipeGestureRecognizer *swipeLeftRecognizer;
 @property (nonatomic, retain) IBOutlet UILabel *pageNumberLabel;
 
 - (id)initWithPageNumber:(int)page;

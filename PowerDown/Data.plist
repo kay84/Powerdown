@@ -8,7 +8,11 @@
 		<key>Icon</key>
 		<string>Baseball.png</string>
 		<key>Detail</key>
-		<string>&quot;test!!\nChallenge of the Day\n\nsakdfjöklsjdfölakjdflöka&quot;</string>
+		<string>&quot;test!!
+Challenge of the Day
+sakdfjöklsjdfölakjdflöka&quot;</string>
+		<key>New item</key>
+		<string></string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -16,7 +20,8 @@
 		<key>Icon</key>
 		<string>Blocks.png</string>
 		<key>Detail</key>
-		<string>@&quot;test!!\nChallenge of the Week 1&quot;</string>
+		<string>@&quot;test!!
+Challenge of the Week 1&quot;</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -24,7 +29,10 @@
 		<key>Icon</key>
 		<string>Checkers.png</string>
 		<key>Detail</key>
-		<string>test!!\n\n\nChallenge of the Universe 3</string>
+		<string>@&quot;test!!
+
+
+Challenge of the Universe 3&quot;</string>
 	</dict>
 </array>
 </plist>

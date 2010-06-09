@@ -11,21 +11,28 @@
 #import "IndividualSubviewsBasedApplicationCell.h"
 
 
-@interface ChallengeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+@interface ChallengeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate> {
 	
-	//UIImageView *imageView;
-	//UIImage *image;
+	UIImageView *imageView;
+	UIImage *image;
 	
 	UITableView *tableView;
 	IndividualSubviewsBasedApplicationCell *tmpCell;
     NSArray *data;
 	NSInteger selectedRow;
+	
+	UITapGestureRecognizer *tapRecognizer;
+	UISwipeGestureRecognizer *swipeLeftRecognizer;
 }
 
 @property (nonatomic, assign) IBOutlet IndividualSubviewsBasedApplicationCell *tmpCell;
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
 @property (nonatomic, assign) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) NSArray *data;
 @property NSInteger selectedRow;
+
+@property (nonatomic, retain) UITapGestureRecognizer *tapRecognizer;
+@property (nonatomic, retain) UISwipeGestureRecognizer *swipeLeftRecognizer;
 
 - (id)initWithImage:(NSString*)imagePath;
 

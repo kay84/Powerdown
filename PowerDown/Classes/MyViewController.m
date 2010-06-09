@@ -51,7 +51,7 @@ static NSArray *__pageControlColorList = nil;
 
 @implementation MyViewController
 
-@synthesize pageNumberLabel;
+@synthesize swipeLeftRecognizer, tapRecognizer, pageNumberLabel;
 
 // Creates the color list the first time this method is invoked. Returns one color object from the list.
 + (UIColor *)pageControlColorWithIndex:(NSUInteger)index {
@@ -79,8 +79,68 @@ static NSArray *__pageControlColorList = nil;
 
 // Set the label and background color when the view has finished loading.
 - (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	/*
+	 Create and configure the four recognizers. Add each to the view as a gesture recognizer.
+	 */
+	UIGestureRecognizer *recognizer;
+	
+	/*
+	 Create a tap recognizer and add it to the view.
+	 Keep a reference to the recognizer to test in gestureRecognizer:shouldReceiveTouch:.
+	 */
+	recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapFrom:)];
+	[self.view addGestureRecognizer:recognizer];
+	self.tapRecognizer = (UITapGestureRecognizer *)recognizer;
+	recognizer.delegate = self;
+	[recognizer release];
+	
+	/*
+	 Create a swipe gesture recognizer to recognize right swipes (the default).
+	 We're only interested in receiving messages from this recognizer, and the view will take ownership of it, so we don't need to keep a reference to it.
+	 */
+	recognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeFrom:)];
+	[self.view addGestureRecognizer:recognizer];
+	[recognizer release];
+	
+	/*
+	 Create a swipe gesture recognizer to recognize left swipes.
+	 Keep a reference to the recognizer so that it can be added to and removed from the view in takeLeftSwipeRecognitionEnabledFrom:.
+	 Add the recognizer to the view if the segmented control shows that left swipe recognition is allowed.
+	 */
+	recognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipeFrom:)];
+	self.swipeLeftRecognizer = (UISwipeGestureRecognizer *)recognizer;
+	
+	swipeLeftRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
+	
+	self.swipeLeftRecognizer = (UISwipeGestureRecognizer *)recognizer;
+	[recognizer release];
+	
+	/*
+	 Create a rotation gesture recognizer.
+	 We're only interested in receiving messages from this recognizer, and the view will take ownership of it, so we don't need to keep a reference to it.
+	 */
+	recognizer = [[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(handleRotationFrom:)];
+	[self.view addGestureRecognizer:recognizer];
+	[recognizer release];
+	
     pageNumberLabel.text = [NSString stringWithFormat:@"Page %d", pageNumber + 1];
     self.view.backgroundColor = [MyViewController pageControlColorWithIndex:pageNumber];
+}
+
+/*
+ In response to a tap gesture, show the image view appropriately then make it fade out in place.
+ */
+- (void)handleTapFrom:(UITapGestureRecognizer *)recognizer {
+	NSLog(@"handleTopFrom");
+}
+
+/*
+ In response to a swipe gesture, show the image view appropriately then move the image view in the direction of the swipe as it fades out.
+ */
+- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer {
+	NSLog(@"swipe left");
 }
 
 @end

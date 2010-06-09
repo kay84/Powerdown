@@ -51,13 +51,17 @@
 @interface IndividualSubviewsBasedApplicationCell : ApplicationCell
 {
     IBOutlet UIImageView *iconView;
-    IBOutlet UILabel *nameLabel;
+    UILabel *nameLabel;
+	UIButton *doButton;
 	UILabel *detailLabel;
 }
 
-- (void) setDetailLabelHidden:(BOOL) setHidden;
-- (BOOL) getDetailLabelHidden;
+- (void) rotateAccesoryArrow:(float)radiant;
+- (void)drawBackground:(CGRect)rect;
+- (void)drawCell:(CGRect)rect;
 
 @property (nonatomic, retain) IBOutlet UILabel *detailLabel;
+@property (nonatomic, retain) IBOutlet UILabel *nameLabel;
+@property (nonatomic, retain) IBOutlet UIButton *doButton;
 
 @end

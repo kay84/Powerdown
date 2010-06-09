@@ -21,6 +21,7 @@
 		6A32D3A711BBDB21004D72A6 /* Baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A32D3A411BBDB21004D72A6 /* Baseball.png */; };
 		6A32D3A811BBDB21004D72A6 /* Blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A32D3A511BBDB21004D72A6 /* Blocks.png */; };
 		6A32D3A911BBDB21004D72A6 /* Checkers.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A32D3A611BBDB21004D72A6 /* Checkers.png */; };
+		6AAD44A111BE782B0099AC5D /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD44A011BE782B0099AC5D /* square.png */; };
 		6AF699FF11BBC18900E8BE73 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF699F411BBC18900E8BE73 /* MyViewController.m */; };
 		6AF69A0011BBC18900E8BE73 /* ChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF699F611BBC18900E8BE73 /* ChallengeViewController.m */; };
 		6AF69A0111BBC18900E8BE73 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF699F811BBC18900E8BE73 /* ShopViewController.m */; };
@@ -60,6 +61,7 @@
 		6A32D3A411BBDB21004D72A6 /* Baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baseball.png; sourceTree = "<group>"; };
 		6A32D3A511BBDB21004D72A6 /* Blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blocks.png; sourceTree = "<group>"; };
 		6A32D3A611BBDB21004D72A6 /* Checkers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkers.png; sourceTree = "<group>"; };
+		6AAD44A011BE782B0099AC5D /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
 		6AF699F311BBC18900E8BE73 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		6AF699F411BBC18900E8BE73 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		6AF699F511BBC18900E8BE73 /* ChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeViewController.h; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 		6A32D26711BBC776004D72A6 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				6AAD44A011BE782B0099AC5D /* square.png */,
 				6A32D3A411BBDB21004D72A6 /* Baseball.png */,
 				6A32D3A511BBDB21004D72A6 /* Blocks.png */,
 				6A32D3A611BBDB21004D72A6 /* Checkers.png */,
@@ -297,6 +300,7 @@
 				6A32D3A711BBDB21004D72A6 /* Baseball.png in Resources */,
 				6A32D3A811BBDB21004D72A6 /* Blocks.png in Resources */,
 				6A32D3A911BBDB21004D72A6 /* Checkers.png in Resources */,
+				6AAD44A111BE782B0099AC5D /* square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

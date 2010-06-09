@@ -21,7 +21,7 @@ static NSUInteger kNumberOfPages = 5;
 
 @implementation PowerDownAppDelegate
 
-@synthesize window, scrollView, viewControllers;
+@synthesize window, scrollView, viewController, viewControllers;
 
 - (void)dealloc {
     [viewControllers release];
@@ -43,7 +43,7 @@ static NSUInteger kNumberOfPages = 5;
 	
     // a page is the width of the scroll view
     scrollView.pagingEnabled = YES;
-    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width, scrollView.frame.size.height * kNumberOfPages);
+    scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * 2, scrollView.frame.size.height * kNumberOfPages);
     scrollView.showsHorizontalScrollIndicator = YES;
     scrollView.showsVerticalScrollIndicator = YES;
     scrollView.scrollsToTop = NO;
@@ -118,27 +118,27 @@ static NSUInteger kNumberOfPages = 5;
     }
 }
 
-- (void)loadScrollViewWithPage:(int)page {
-    if (page < 0) return;
-    if (page >= kNumberOfPages) return;
-	
-    // replace the placeholder if necessary
-    MyViewController *controller = [viewControllers objectAtIndex:page];
-    if ((NSNull *)controller == [NSNull null]) {
-        controller = [[MyViewController alloc] initWithPageNumber:page];
-        [viewControllers replaceObjectAtIndex:page withObject:controller];
-        [controller release];
-    }
-	
-    // add the controller's view to the scroll view
-    if (nil == controller.view.superview) {
-        CGRect frame = scrollView.frame;
-        frame.origin.x = frame.size.width * page;
-        frame.origin.y = 0;
-        controller.view.frame = frame;
-        [scrollView addSubview:controller.view];
-    }
-}
+//- (void)loadScrollViewWithPage:(int)page {
+//    if (page < 0) return;
+//    if (page >= kNumberOfPages) return;
+//	
+//    // replace the placeholder if necessary
+//    MyViewController *controller = [viewControllers objectAtIndex:page];
+//    if ((NSNull *)controller == [NSNull null]) {
+//        controller = [[MyViewController alloc] initWithPageNumber:page];
+//        [viewControllers replaceObjectAtIndex:page withObject:controller];
+//        [controller release];
+//    }
+//	
+//    // add the controller's view to the scroll view
+//    if (nil == controller.view.superview) {
+//        CGRect frame = scrollView.frame;
+//        frame.origin.x = frame.size.width * page;
+//        frame.origin.y = 0;
+//        controller.view.frame = frame;
+//        [scrollView addSubview:controller.view];
+//    }
+//}
 
 //- (void)scrollViewDidScroll:(UIScrollView *)sender
 //{

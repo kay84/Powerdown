@@ -13,10 +13,12 @@
 #import "AquariumViewController.h"
 #import "ShopViewController.h"
 #import "PlaceViewController.h"
+#import "MyViewController.h"
 
 @interface PowerDownAppDelegate : NSObject <UIApplicationDelegate, UIScrollViewDelegate> {
 	
 	UIWindow *window;
+	MyViewController *viewController;
 	UIScrollView *scrollView;
     NSMutableArray *viewControllers;
 	
@@ -29,6 +31,7 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, retain) IBOutlet MyViewController *viewController;
 @property (nonatomic, retain) NSMutableArray *viewControllers;
 
 @end
