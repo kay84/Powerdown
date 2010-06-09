@@ -10,7 +10,6 @@
 #import <UIKit/UIKit.h>
 #import "IndividualSubviewsBasedApplicationCell.h"
 
-
 @interface ChallengeViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate> {
 	
 	UIImageView *imageView;

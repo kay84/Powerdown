@@ -95,8 +95,7 @@
 ////	[self.view addGestureRecognizer:recognizer];
 ////	[recognizer release];
 	
-	//***********************
-	
+	//***********************	
 	imageView.image = image;
 	self.view.backgroundColor = [UIColor clearColor];
 	
@@ -128,9 +127,6 @@
 	}else {
 		NSLog(@"swipe reight");
 	}
-
-	
-	
 }
 
 

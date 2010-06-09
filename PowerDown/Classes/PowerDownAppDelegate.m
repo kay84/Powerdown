@@ -68,7 +68,6 @@ static NSUInteger kNumberOfPages = 5;
         [scrollView addSubview:challengeViewController.view];
     }
 	
-	
 	shopViewController = [[ShopViewController alloc] initWithImage: @"shop.png"];
 	[viewControllers addObject: shopViewController];
 	[shopViewController release];
