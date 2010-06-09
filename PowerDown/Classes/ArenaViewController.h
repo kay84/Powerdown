@@ -7,15 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "IndividualSubviewsBasedApplicationCell.h"s
 
-
-@interface ArenaViewController : UIViewController
+@interface ArenaViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
 	UIImageView *imageView;
 	UIImage *image;
+	
+	UITableView *tableView;
+	IndividualSubviewsBasedApplicationCell *tmpCell;
+    NSArray *data;
+	NSInteger selectedRow;
 }
 
+@property (nonatomic, assign) IBOutlet IndividualSubviewsBasedApplicationCell *tmpCell;
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
+@property (nonatomic, assign) IBOutlet UITableView *tableView;
+@property (nonatomic, retain) NSArray *data;
+@property NSInteger selectedRow;
 
 - (id)initWithImage:(NSString*)imagePath;
 

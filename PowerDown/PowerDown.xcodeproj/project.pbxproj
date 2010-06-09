@@ -21,6 +21,7 @@
 		6A32D3A711BBDB21004D72A6 /* Baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A32D3A411BBDB21004D72A6 /* Baseball.png */; };
 		6A32D3A811BBDB21004D72A6 /* Blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A32D3A511BBDB21004D72A6 /* Blocks.png */; };
 		6A32D3A911BBDB21004D72A6 /* Checkers.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A32D3A611BBDB21004D72A6 /* Checkers.png */; };
+		6AAABDA711BFD786002E0F61 /* ArenaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAABDA611BFD786002E0F61 /* ArenaView.xib */; };
 		6AAD44A111BE782B0099AC5D /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD44A011BE782B0099AC5D /* square.png */; };
 		6AF699FF11BBC18900E8BE73 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF699F411BBC18900E8BE73 /* MyViewController.m */; };
 		6AF69A0011BBC18900E8BE73 /* ChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF699F611BBC18900E8BE73 /* ChallengeViewController.m */; };
@@ -35,7 +36,6 @@
 		6AF69A1611BBC1C800E8BE73 /* shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A1011BBC1C800E8BE73 /* shop.png */; };
 		6AF69A1711BBC1C800E8BE73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A1111BBC1C800E8BE73 /* Default.png */; };
 		6AF69A2011BBC22300E8BE73 /* ShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A1B11BBC22300E8BE73 /* ShopView.xib */; };
-		6AF69A2111BBC22300E8BE73 /* ArenaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A1C11BBC22300E8BE73 /* ArenaView.xib */; };
 		6AF69A2211BBC22300E8BE73 /* PlaceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A1D11BBC22300E8BE73 /* PlaceView.xib */; };
 		6AF69A2311BBC22300E8BE73 /* AquariumView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A1E11BBC22300E8BE73 /* AquariumView.xib */; };
 		6AF69A2D11BBC27700E8BE73 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AF69A2A11BBC27700E8BE73 /* MyView.xib */; };
@@ -61,6 +61,7 @@
 		6A32D3A411BBDB21004D72A6 /* Baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Baseball.png; sourceTree = "<group>"; };
 		6A32D3A511BBDB21004D72A6 /* Blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blocks.png; sourceTree = "<group>"; };
 		6A32D3A611BBDB21004D72A6 /* Checkers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checkers.png; sourceTree = "<group>"; };
+		6AAABDA611BFD786002E0F61 /* ArenaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArenaView.xib; sourceTree = "<group>"; };
 		6AAD44A011BE782B0099AC5D /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
 		6AF699F311BBC18900E8BE73 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		6AF699F411BBC18900E8BE73 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		6AF69A1011BBC1C800E8BE73 /* shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shop.png; sourceTree = "<group>"; };
 		6AF69A1111BBC1C800E8BE73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6AF69A1B11BBC22300E8BE73 /* ShopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopView.xib; sourceTree = "<group>"; };
-		6AF69A1C11BBC22300E8BE73 /* ArenaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArenaView.xib; sourceTree = "<group>"; };
 		6AF69A1D11BBC22300E8BE73 /* PlaceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceView.xib; sourceTree = "<group>"; };
 		6AF69A1E11BBC22300E8BE73 /* AquariumView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AquariumView.xib; sourceTree = "<group>"; };
 		6AF69A2B11BBC27700E8BE73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyView.xib; sourceTree = "<group>"; };
@@ -150,9 +150,9 @@
 				6A32D26811BBC795004D72A6 /* Images */,
 				6A32D26711BBC776004D72A6 /* Icons */,
 				6AF69A2A11BBC27700E8BE73 /* MyView.xib */,
+				6AAABDA611BFD786002E0F61 /* ArenaView.xib */,
 				6A32D29111BBC957004D72A6 /* ChallengeView.xib */,
 				6AF69A1B11BBC22300E8BE73 /* ShopView.xib */,
-				6AF69A1C11BBC22300E8BE73 /* ArenaView.xib */,
 				6AF69A1D11BBC22300E8BE73 /* PlaceView.xib */,
 				6AF69A1E11BBC22300E8BE73 /* AquariumView.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -175,13 +175,13 @@
 		6A32D26511BBC6FB004D72A6 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				6A32D26611BBC737004D72A6 /* UI Elements */,
+				6AAABD2911BFCC4E002E0F61 /* ArenaScreen */,
 				6A32D28211BBC85E004D72A6 /* ChallengeScreen */,
 				6AF699F711BBC18900E8BE73 /* ShopViewController.h */,
 				6AF699F811BBC18900E8BE73 /* ShopViewController.m */,
 				6AF699F911BBC18900E8BE73 /* PlaceViewController.h */,
 				6AF699FA11BBC18900E8BE73 /* PlaceViewController.m */,
-				6AF699FB11BBC18900E8BE73 /* ArenaViewController.h */,
-				6AF699FC11BBC18900E8BE73 /* ArenaViewController.m */,
 				6AF699FD11BBC18900E8BE73 /* AquariumViewController.h */,
 				6AF699FE11BBC18900E8BE73 /* AquariumViewController.m */,
 			);
@@ -226,11 +226,19 @@
 		6A32D28211BBC85E004D72A6 /* ChallengeScreen */ = {
 			isa = PBXGroup;
 			children = (
-				6A32D26611BBC737004D72A6 /* UI Elements */,
 				6AF699F511BBC18900E8BE73 /* ChallengeViewController.h */,
 				6AF699F611BBC18900E8BE73 /* ChallengeViewController.m */,
 			);
 			name = ChallengeScreen;
+			sourceTree = "<group>";
+		};
+		6AAABD2911BFCC4E002E0F61 /* ArenaScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6AF699FB11BBC18900E8BE73 /* ArenaViewController.h */,
+				6AF699FC11BBC18900E8BE73 /* ArenaViewController.m */,
+			);
+			name = ArenaScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +298,6 @@
 				6AF69A1611BBC1C800E8BE73 /* shop.png in Resources */,
 				6AF69A1711BBC1C800E8BE73 /* Default.png in Resources */,
 				6AF69A2011BBC22300E8BE73 /* ShopView.xib in Resources */,
-				6AF69A2111BBC22300E8BE73 /* ArenaView.xib in Resources */,
 				6AF69A2211BBC22300E8BE73 /* PlaceView.xib in Resources */,
 				6AF69A2311BBC22300E8BE73 /* AquariumView.xib in Resources */,
 				6AF69A2D11BBC27700E8BE73 /* MyView.xib in Resources */,
@@ -301,6 +308,7 @@
 				6A32D3A811BBDB21004D72A6 /* Blocks.png in Resources */,
 				6A32D3A911BBDB21004D72A6 /* Checkers.png in Resources */,
 				6AAD44A111BE782B0099AC5D /* square.png in Resources */,
+				6AAABDA711BFD786002E0F61 /* ArenaView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,8 +10,8 @@
 #import "ChallengeViewController.h"
 #import "IndividualSubviewsBasedApplicationCell.h"
 
-#define DARK_BACKGROUND  [UIColor colorWithRed:151.0/255.0 green:152.0/255.0 blue:155.0/255.0 alpha:1.0]
-#define LIGHT_BACKGROUND [UIColor colorWithRed:172.0/255.0 green:173.0/255.0 blue:175.0/255.0 alpha:1.0]
+//#define DARK_BACKGROUND  [UIColor colorWithRed:151.0/255.0 green:152.0/255.0 blue:155.0/255.0 alpha:1.0]
+//#define LIGHT_BACKGROUND [UIColor colorWithRed:172.0/255.0 green:173.0/255.0 blue:175.0/255.0 alpha:1.0]
 
 @implementation ChallengeViewController
 
@@ -22,8 +22,7 @@
 // Load the view nib and initialize the pageNumber ivar.
 - (id)initWithImage:(NSString*)imagePath
 {
-    if (self = [super initWithNibName:@"ChallengeView" bundle:nil]) {
-		
+    if (self = [super initWithNibName:@"ChallengeView" bundle:nil]) {		
 		image = [UIImage imageNamed:imagePath];
     }
     return self;
