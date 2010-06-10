@@ -12,6 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
+			<integer value="2"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -37,7 +38,7 @@
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUITableViewCell" id="76075731">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">256</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -85,17 +86,21 @@
 							</object>
 							<object class="IBUIImageView" id="952440739">
 								<reference key="NSNextResponder" ref="806442696"/>
-								<int key="NSvFlags">-2147483356</int>
+								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{46, 67}, {257, 163}}</string>
 								<reference key="NSSuperview" ref="806442696"/>
+								<bool key="IBUIOpaque">NO</bool>
+								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
 							<object class="IBUIImageView" id="357909764">
 								<reference key="NSNextResponder" ref="806442696"/>
-								<int key="NSvFlags">-2147483356</int>
+								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{721, 67}, {240, 163}}</string>
 								<reference key="NSSuperview" ref="806442696"/>
+								<bool key="IBUIOpaque">NO</bool>
+								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							</object>
@@ -114,6 +119,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{981, 250}</string>
+				<reference key="NSSuperview"/>
 				<reference key="IBUIBackgroundColor" ref="587066928"/>
 				<bool key="IBUIOpaque">NO</bool>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -193,8 +199,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="938596182"/>
 							<reference ref="1058917816"/>
-							<reference ref="952440739"/>
 							<reference ref="357909764"/>
+							<reference ref="952440739"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -209,13 +215,13 @@
 						<reference key="parent" ref="76075731"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">32</int>
-						<reference key="object" ref="952440739"/>
+						<int key="objectID">33</int>
+						<reference key="object" ref="357909764"/>
 						<reference key="parent" ref="76075731"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">33</int>
-						<reference key="object" ref="357909764"/>
+						<int key="objectID">32</int>
+						<reference key="object" ref="952440739"/>
 						<reference key="parent" ref="76075731"/>
 					</object>
 				</object>

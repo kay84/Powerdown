@@ -6,7 +6,7 @@
 		<key>Name</key>
 		<string>Fisch 1</string>
 		<key>FishIcon</key>
-		<string>fisch1.jpg</string>
+		<string>fisch1.png</string>
 		<key>StatsIcon</key>
 		<string>fisch1_stats.png</string>
 	</dict>
@@ -14,7 +14,7 @@
 		<key>Name</key>
 		<string>Fisch 2</string>
 		<key>FishIcon</key>
-		<string>fisch2.jpg</string>
+		<string>fisch2.png</string>
 		<key>StatsIcon</key>
 		<string>fisch2_stats.png</string>
 	</dict>
@@ -22,7 +22,7 @@
 		<key>Name</key>
 		<string>Fisch 3</string>
 		<key>FishIcon</key>
-		<string>fisch3.jpg</string>
+		<string>fisch3.png</string>
 		<key>StatsIcon</key>
 		<string>fisch3_stats.png</string>
 	</dict>
@@ -30,7 +30,7 @@
 		<key>Name</key>
 		<string>Fisch 4</string>
 		<key>FishIcon</key>
-		<string>fisch4.jpg</string>
+		<string>fisch4.png</string>
 		<key>StatsIcon</key>
 		<string>fisch4_stats.png</string>
 	</dict>
@@ -38,7 +38,7 @@
 		<key>Name</key>
 		<string>Fisch 5</string>
 		<key>FishIcon</key>
-		<string>fisch5.jpg</string>
+		<string>fisch5.png</string>
 		<key>StatsIcon</key>
 		<string>fisch5_stats.png</string>
 	</dict>

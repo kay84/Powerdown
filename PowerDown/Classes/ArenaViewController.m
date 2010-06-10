@@ -156,7 +156,7 @@
 	NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
     cell.icon = [UIImage imageNamed:@"square.png"]; //[UIImage imageNamed:[dataItem objectForKey:@"Icon"]];
     cell.name = [dataItem objectForKey:@"Name"];
-	cell.fishIconView = [UIImage imageNamed:[dataItem objectForKey:@"FishIcon"]];
+	cell.fishIconView = [UIImage imageNamed:@"fisch1.png"];
 	cell.iconStatsView = [UIImage imageNamed:[dataItem objectForKey:@"StatsIcon"]]; 
 	
 	//rahmen zeichnen
@@ -179,13 +179,13 @@
 	
 	ArenaApplicationCell *cell = (ArenaApplicationCell *) [self.tableView cellForRowAtIndexPath:indexPath]; 
 	
-	if ([cell fishIconView].hidden) {
-		[cell rotateAccesoryArrow:-90];
-		selectedRow = indexPath.row;		
-	} else {
-		[cell rotateAccesoryArrow:0];
-		selectedRow = -1;
-	}
+//	if ([cell fishIconView].hidden) {
+//		[cell rotateAccesoryArrow:-90];
+//		selectedRow = indexPath.row;		
+//	} else {
+//		[cell rotateAccesoryArrow:0];
+//		selectedRow = -1;
+//	}
 	
 	selectedRow = indexPath.row;		
 
